@@ -230,11 +230,22 @@ button {
 }
 .navbar {
     padding: 20px 30px;
+
 }
+
+.navbar-expand-lg {
+	justify-content: space-around;
+}
+
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 10px;
     padding-left: 10px;
     font-size: 18px;
+	
+}
+
+.navbar-collapse {
+	flex-grow: 0;
 }
 .bg-light {
     background-color: #fefeff !important;
@@ -783,7 +794,7 @@ button {
 .copyright_section{
     width: 100%;
     float: left;
-    background-color: #599ee9;
+    background: linear-gradient(to right, #206a7c69, #298da6, #206a7c69);
     height: auto;
 }
 
